@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<configuration>
+   <setup connectArcad="true" useRepository="true"/>
+   <servername>10.5.6.85</servername>
+   <username>atully</username>
+   <password>b0846883a7be0b9da3983d6d01481d616626399e7c26</password>
+   <iASP>*SYSBAS</iASP>
+   <ccsid>37</ccsid>
+   <ssl>false</ssl>
+   <codecoveragepath>/home/ArcadiUnit/ATU321/CCReports/</codecoveragepath>
+   <repository aspname="*SYSTEM" description="" identifier="4" name="ATU321" version="*NONE" versionselected="false">
+      <libraries>
+         <objectlibraries>
+            <objectlibrary name="ATU_DTA" order="1"/>
+            <objectlibrary name="ATU_OBJ" order="2"/>
+         </objectlibraries>
+         <sourcelibraries>
+            <sourcelibrary name="ATU_SRC" order="1"/>
+         </sourcelibraries>
+         <executionlibraries/>
+      </libraries>
+   </repository>
+</configuration>

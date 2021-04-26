@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<testcases>
+   <testcase doNotExecute="false" expectedAssertion="S" identifier="2" name="COU300TC2_GETCOUNTRYNAME" option="1" syncStatus="C">
+      <object attribute="" library="ATU_OBJ" name="COU300" srcFile="" srcMemberName="" srcModuleName="" type="*MODULE"/>
+      <procedure name="GETCOUNTRYNAME" returnArrayDim="0" returnFlag="Y" returnedDecimal="0" returnedLength="30" returnedType="A" sequence="0">
+         <parameters>
+            <parameter arrDim="0" datalength="2" datatype="A" decimal="0" dslength="0" dsname="" keywords="VA" likeds="" name="P_COID" number="1" parametersequence="1" subfieldnumber="0" subfieldtype="SA"/>
+            <parameter arrDim="0" datalength="30" datatype="A" decimal="0" dslength="0" dsname="" likeds="" name="Returned Value" number="2" parametersequence="2" subfieldnumber="1" subfieldtype=""/>
+         </parameters>
+      </procedure>
+      <variables/>
+      <mockVariables/>
+      <steps>
+         <before/>
+         <after/>
+      </steps>
+      <result hour="0" identifier="1" mil="0" min="0" sec="0" status="B">
+         <input><![CDATA[{"P_COID":"GB"}]]></input>
+         <output><![CDATA[{"OUTPUT":{"Rtn_xxVar":"Royaume-Uni"}, "INPUT":{ "P_COID":"GB"}}]]></output>
+      </result>
+   </testcase>
+</testcases>

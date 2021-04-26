@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<testcase>
+   <expectedValue_0>{"OUTPUT":{"Rtn_xxVar":"Royaume-Uni"}, "INPUT":{ "P_COID":"GB"}}</expectedValue_0>
+</testcase>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<mocktestcase>
+   <files>
+      <file fileName="COUNTRY" fileType="PF"/>
+   </files>
+   <programs/>
+   <procedures>
+      <procedure objectName="COU300" objectType="*MODULE" procedureName="CHAINCOUNTRY" rrnSequence="65" sourceFile="QRPGLESRC" sourceLibrary="ATU_SRC" sourceMember="COU300" sourceSequence="0.0"/>
+   </procedures>
+</mocktestcase>

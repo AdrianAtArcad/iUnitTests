@@ -1,0 +1,1238 @@
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page    1  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+CPC0904    Completion              00   04/26/21  10:25:23.119975  QWCCCRVC     QSYS        00B0     AARI090C1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI090C1                                                      
+                                     To procedure  . . . . . . . :   AARI090C1                                                      
+                                     Statement . . . . . . . . . :   8700                                                           
+                                     Message . . . . :   Data area EXECERR created in library QTEMP.                                
+CPF9801    Escape                  40   04/26/21  10:25:23.120048  QLICKOBJ     QSYS        025B     AARI090C1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI090C1                                                      
+                                     To procedure  . . . . . . . :   AARI090C1                                                      
+                                     Statement . . . . . . . . . :   10000                                                          
+                                     Message . . . . :   Object AARILIBL2 in library QTEMP not found.                               
+                                     Cause . . . . . :   The object AARILIBL2 in library QTEMP type *FILE not                       
+                                       found.  The object name, library name, or the object type is not correct.                    
+                                       If the library name is not specified, the object may be in a library that is                 
+                                       not contained in the library list. Recovery  . . . :   Correct the object                    
+                                       name, library name, or object type.  If the library name was not specified,                  
+                                       specify the library name and try the request again.                                          
+CPI2101    Information             00   04/26/21  10:25:23.143985  QLICRDUP     QSYS        1305     AARI090C1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI090C1                                                      
+                                     To procedure  . . . . . . . :   AARI090C1                                                      
+                                     Statement . . . . . . . . . :   10300                                                          
+                                     Message . . . . :   Object AARILIBL2 in QTEMP type *FILE created.                              
+CPC2130    Completion              00   04/26/21  10:25:23.144079  QLICRDUP     QSYS        03A2     AARI090C1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI090C1                                                      
+                                     To procedure  . . . . . . . :   AARI090C1                                                      
+                                     Statement . . . . . . . . . :   10300                                                          
+                                     Message . . . . :   1 objects duplicated.                                                      
+                                     Cause . . . . . :   All the objects with supported object types specified on                   
+                                       the Create Duplicate Object (CRTDUPOBJ) command were duplicated. See low                     
+                                       level messages to determine if any objects were not duplicated.                              
+CPC7301    Completion              00   04/26/21  10:25:23.152024  QDDCPF       QSYS        054B     AARI096R1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI096R1                                                      
+                                     To procedure  . . . . . . . :   AARI096R1                                                      
+                                     Statement . . . . . . . . . :   41108                                                          
+                                     Message . . . . :   File QRPGLETMP created in library QTEMP.                                   
+CPC7305    Completion              00   04/26/21  10:25:23.155562  QDDCPFM      QSYS        005B     AARI096R1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI096R1                                                      
+                                     To procedure  . . . . . . . :   AARI096R1                                                      
+                                     Statement . . . . . . . . . :   41108                                                          
+                                     Message . . . . :   Member XCOU300 added to file QRPGLETMP in QTEMP.                           
+CPI433A    Information             00   04/26/21  10:25:23.166957  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page    2  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.179884  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.180061  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page    3  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.180205  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.180339  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page    4  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.180475  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.180613  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page    5  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.180746  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page    6  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.180930  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.181060  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page    7  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.181191  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.181359  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page    8  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.181503  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.181632  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page    9  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.181791  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.181930  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   10  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.182083  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.182274  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   11  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.182416  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.182568  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   12  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.182708  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.182843  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   13  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.182974  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.183127  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   14  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.183258  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.183489  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   15  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+MSG0159    Escape                  30   04/26/21  10:25:23.183920  AARC163G1    ARCAD_PRD   *STMT    AARM302C1   ARCAD_PRD   0107   
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   AARC163X1                                                      
+                                     From procedure  . . . . . . :   AARC163X1                                                      
+                                     Statement . . . . . . . . . :   13608                                                          
+                                     Message . . . . :   Library QTEMP does not belong to any application.                          
+CPC7309    Completion              00   04/26/21  10:25:23.192294  AARM302C1    ARCAD_PRD   0182     AARI096R1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI096R1                                                      
+                                     To procedure  . . . . . . . :   AARI096R1                                                      
+                                     Statement . . . . . . . . . :   42208                                                          
+                                     Message . . . . :   Member XCOU300 removed from file QRPGLETMP in QTEMP.                       
+CPC7305    Completion              00   04/26/21  10:25:23.196080  QDDCPFM      QSYS        005B     AARI096R1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI096R1                                                      
+                                     To procedure  . . . . . . . :   AARI096R1                                                      
+                                     Statement . . . . . . . . . :   43408                                                          
+                                     Message . . . . :   Member XCOU300 added to file QRPGLETMP in QTEMP.                           
+CPI433A    Information             00   04/26/21  10:25:23.283356  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   16  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.283493  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1267                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.327409  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   17  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.327657  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.429127  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   18  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPC7301    Completion              00   04/26/21  10:25:23.432669  QDDCPF       QSYS        054B     QSQPMAIN    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   QSQPMAIN                                                       
+                                     To procedure  . . . . . . . :   CRTFILE                                                        
+                                     Statement . . . . . . . . . :   15179                                                          
+                                     Message . . . . :   File QSQLTEMP1 created in library QTEMP.                                   
+CPC7305    Completion              00   04/26/21  10:25:23.435580  QDDCPFM      QSYS        005B     QSQPMAIN    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   QSQPMAIN                                                       
+                                     To procedure  . . . . . . . :   CRTFILE                                                        
+                                     Statement . . . . . . . . . :   15179                                                          
+                                     Message . . . . :   Member XCOU300 added to file QSQLTEMP1 in QTEMP.                           
+CPI433A    Information             00   04/26/21  10:25:23.435640  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   19  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPI433A    Information             00   04/26/21  10:25:23.435739  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1267                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPD4090    Diagnostic              10   04/26/21  10:25:23.459413  QDMCOPEN     QSYS        17CB     QSQPMAIN    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   QSQPMAIN                                                       
+                                     To procedure  . . . . . . . :   PRTOPS                                                         
+                                     Statement . . . . . . . . . :   14002                                                          
+                                     Message . . . . :   Printer device PRT01 not found. Output queue changed to                    
+                                       QPRINT in library QGPL.                                                                      
+                                     Cause . . . . . :   The printer device PRT01 not found.  The output queue was                  
+                                       changed for the spooled printer file QSYSPRT in library QSYS. Recovery  . .                  
+                                       . :   Do one of the following before you run the program again: -- Change or                 
+                                       override the printer device name for the spooled printer file QSYSPRT in                     
+                                       library QSYS using either the Change Printer File (CHGPRTF) command or the                   
+                                       Override Printer File (OVRPRTF) command. -- Add or create the configuration                  
+                                       for the printer (CRTDEVPRT command).                                                         
+CPI433A    Information             00   04/26/21  10:25:23.477257  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   20  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPD4090    Diagnostic              10   04/26/21  10:25:23.478518  QDMCOPEN     QSYS        17CB     QC2IO       QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   QC2CRIC1                                                       
+                                     To procedure  . . . . . . . :   _C_Open file                                                   
+                                     Statement . . . . . . . . . :   15                                                             
+                                     Message . . . . :   Printer device PRT01 not found. Output queue changed to                    
+                                       QPRINT in library QGPL.                                                                      
+                                     Cause . . . . . :   The printer device PRT01 not found.  The output queue was                  
+                                       changed for the spooled printer file QSYSPRT in library QSYS. Recovery  . .                  
+                                       . :   Do one of the following before you run the program again: -- Change or                 
+                                       override the printer device name for the spooled printer file QSYSPRT in                     
+                                       library QSYS using either the Change Printer File (CHGPRTF) command or the                   
+                                       Override Printer File (OVRPRTF) command. -- Add or create the configuration                  
+                                       for the printer (CRTDEVPRT command).                                                         
+RNS9305    Completion              00   04/26/21  10:25:23.577351  QRN4CPP      QDEVTOOLS   *STMT    AARI094G1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   GRP4CPP                                                        
+                                     From procedure  . . . . . . :   cleanup                                                        
+                                     Statement . . . . . . . . . :   19                                                             
+                                     To module . . . . . . . . . :   AARI094M1                                                      
+                                     To procedure  . . . . . . . :   AARI094M1                                                      
+                                     Statement . . . . . . . . . :   2236                                                           
+                                     Message . . . . :   Module XCOU300 placed in library QTEMP. 00 highest                         
+                                       severity. Created on 04/26/21 at 10:25:23.                                                   
+                                     Cause . . . . . :   Module XCOU300 was successfully created in library QTEMP.                  
+                                       The highest message severity that resulted was 00. The module creation date                  
+                                       and time are 04/26/21 and 10:25:23.                                                          
+CPC0904    Completion              00   04/26/21  10:25:23.579838  QWCCCRVC     QSYS        00B0     QRN4CPP     QDEVTOOLS   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   GRP4CPP                                                        
+                                     To procedure  . . . . . . . :   update_dtaara                                                  
+                                     Statement . . . . . . . . . :   8                                                              
+                                     Message . . . . :   Data area RETURNCODE created in library QTEMP.                             
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   21  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+CPC5D07    Completion              00   04/26/21  10:25:23.627975  QBNBIND      QSYS        *STMT    AARI094G1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QBNBIND                                                        
+                                     From procedure  . . . . . . :   QBNBIND__SendCompletionMessage                                 
+                                     Statement . . . . . . . . . :   7                                                              
+                                     To module . . . . . . . . . :   AARI094M1                                                      
+                                     To procedure  . . . . . . . :   AARI094M1                                                      
+                                     Statement . . . . . . . . . :   2308                                                           
+                                     Message . . . . :   Program XCOU300 created in library QTEMP.                                  
+                                     Cause . . . . . :   Program XCOU300 was successfully created in library QTEMP.                 
+                                       Recovery  . . . :   Program creation was successful.                                         
+CPI433A    Information             00   04/26/21  10:25:23.628197  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CCR0018    Information             10   04/26/21  10:25:23.647531  CCMAIN       QDEVTOOLS   *STMT    CCMAIN      QDEVTOOLS   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   CCERROR                                                        
+                                     From procedure  . . . . . . :   SendMsgModuleInstrumented                                      
+                                     Statement . . . . . . . . . :   8                                                              
+                                     To module . . . . . . . . . :   CCMAIN                                                         
+                                     To procedure  . . . . . . . :   _C_pep                                                         
+                                     Statement . . . . . . . . . :   *N                                                             
+                                     Message . . . . :   Module (COU300) is instrumented.                                           
+                                     Cause . . . . . :   The module (COU300) in program (QTEMP/XCOU300) is                          
+                                       instrumented.                                                                                
+CPI433A    Information             00   04/26/21  10:25:23.650461  QQQSRVI1     QSYS        *STMT    QQQSRVE1    QSYS        *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     From module . . . . . . . . :   QQQAINI                                                        
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   22  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     From procedure  . . . . . . :   GETMSGTXT                                                      
+                                     Statement . . . . . . . . . :   11316                                                          
+                                     To module . . . . . . . . . :   QQQGINI                                                        
+                                     To procedure  . . . . . . . :   QQGETINIOPTIONS                                                
+                                     Statement . . . . . . . . . :   1266                                                           
+                                     Message . . . . :   Unable to retrieve query options file.                                     
+                                     Cause . . . . . :   Unable to retrieve the query options from member QAQQINI                   
+                                       in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and                  
+                                       their meanings follow: 1 - Library QUSRSYS was not found. 2 - File QAQQINI                   
+                                       in library QUSRSYS was not found. 3 - The file was damaged. 4 - The file was                 
+                                       locked by another process which prevented successful retrieval of the query                  
+                                       options. 5 - File QAQQINI and the internal query options structures are out                  
+                                       of sync. 6 - An unexpected error occurred while trying to retrieve the                       
+                                       options file. The query options file is used by the Query Optimizer to                       
+                                       determine how a query will be implemented. Recovery  . . . :   Default query                 
+                                       options will be used, unless one of the following actions are taken, based                   
+                                       on the reason code above. 1 - Either create the library (CRTLIB command) or                  
+                                       correct the library name and then try the request again. 2 - Either specify                  
+                                       the library name that contains the query options file or create a duplicate                  
+                                       object (CRTDUPOBJ command) of file QAQQINI from library QSYS into the                        
+                                       specified library. 4 - Wait for lock on file QAQQINI in library QUSRSYS to                   
+                                       be released and try the request again. 3, 5, or 6 - Delete query options                     
+                                       file QAQQINI in library QUSRSYS and then duplicate it from QSYS. If the                      
+                                       problem still persists, report the problem (ANZPRB command).                                 
+CPF9801    Escape                  40   04/26/21  10:25:23.669960  QLICKOBJ     QSYS        025B     AARI092C1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI092C1                                                      
+                                     To procedure  . . . . . . . :   AARI092C1                                                      
+                                     Statement . . . . . . . . . :   6200                                                           
+                                     Message . . . . :   Object ZZSPLOUT in library QTEMP not found.                                
+                                     Cause . . . . . :   The object ZZSPLOUT in library QTEMP type *FILE not found.                 
+                                        The object name, library name, or the object type is not correct.  If the                   
+                                       library name is not specified, the object may be in a library that is not                    
+                                       contained in the library list. Recovery  . . . :   Correct the object name,                  
+                                       library name, or object type.  If the library name was not specified,                        
+                                       specify the library name and try the request again.                                          
+CPC7301    Completion              00   04/26/21  10:25:23.673550  QDDCPF       QSYS        054B     AARI092C1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI092C1                                                      
+                                     To procedure  . . . . . . . :   AARI092C1                                                      
+                                     Statement . . . . . . . . . :   6600                                                           
+                                     Message . . . . :   File ZZSPLOUT created in library QTEMP.                                    
+CPC7305    Completion              00   04/26/21  10:25:23.680701  QDDCPFM      QSYS        005B     AARI092C1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI092C1                                                      
+                                     To procedure  . . . . . . . :   AARI092C1                                                      
+                                     Statement . . . . . . . . . :   6600                                                           
+                                     Message . . . . :   Member ZZSPLOUT added to file ZZSPLOUT in QTEMP.                           
+CPC3101    Completion              00   04/26/21  10:25:23.682433  QDBCLRPF     QSYS        0383     AARI092C1   ARCAD_IUN   *STMT  
+                                     From user . . . . . . . . . :   ATULLY                                                         
+                                     To module . . . . . . . . . :   AARI092C1                                                      
+                                     To procedure  . . . . . . . :   AARI092C1                                                      
+ 5770SS1 V7R4M0 190621                        Display Job Log                       QATEST01  04/26/21  10:25:23 UTC     Page   23  
+  Job name . . . . . . . . . . :   QZDASOINIT      User  . . . . . . :   QUSER        Number . . . . . . . . . . . :   141770       
+  Job description  . . . . . . :   QDFTSVR         Library . . . . . :   QGPL                                                       
+MSGID      TYPE                    SEV  DATE      TIME             FROM PGM     LIBRARY     INST     TO PGM      LIBRARY     INST   
+                                     Statement . . . . . . . . . :   7200                                                           
+                                     Message . . . . :   Member ZZSPLOUT file ZZSPLOUT in QTEMP cleared.                            

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<testcase>
+   <variableValue/>
+   <actualValue_0>
+      <actualValue><![CDATA[{"OUTPUT":{"Rtn_xxVar":"1"}, "INPUT":{ "P_COID":"GB"}}]]></actualValue>
+      <codeCovReportPath>/home/ArcadiUnit/ATU321/CCReports/COU300TC1_EXISTCOUNTRY0.cczip</codeCovReportPath>
+   </actualValue_0>
+</testcase>
